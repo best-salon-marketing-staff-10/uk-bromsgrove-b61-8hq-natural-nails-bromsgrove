@@ -60,26 +60,26 @@ serviceList
   */
 const businessOpeningTimeInput = {
   //Thời gian làm việc của tiệm
-  monOpeningTime : "09:00",
+  monOpeningTime : "10:00",
   monClosingTime : "19:00",
 
-  tueOpeningTime : "09:00",
+  tueOpeningTime : "10:00",
   tueClosingTime : "19:00",
 
-  wedOpeningTime : "09:00",
+  wedOpeningTime : "10:00",
   wedClosingTime : "19:00",
 
-  thuOpeningTime : "09:00",
+  thuOpeningTime : "10:00",
   thuClosingTime : "19:00",
 
-  friOpeningTime : "09:00",
+  friOpeningTime : "10:00",
   friClosingTime : "19:00",
 
-  satOpeningTime : "09:00",
+  satOpeningTime : "09:30",
   satClosingTime : "19:00",
 
-  sunOpeningTime : "10:00",
-  sunClosingTime : "16:00",
+  sunOpeningTime : "",
+  sunClosingTime : "",
 }
 
 const processedBusinessOpeningTime = {
@@ -91,50 +91,50 @@ const processedBusinessOpeningTime = {
   workingTimeThu : "Thursday: " + businessOpeningTimeInput.thuOpeningTime + "–" + businessOpeningTimeInput.thuClosingTime,
   workingTimeFri : "Friday: " + businessOpeningTimeInput.friOpeningTime + "–" + businessOpeningTimeInput.friClosingTime,
   workingTimeSat : "Saturday: " + businessOpeningTimeInput.satOpeningTime + "–" + businessOpeningTimeInput.satClosingTime,
-  workingTimeSun : "Sunday: " + businessOpeningTimeInput.sunOpeningTime + "–" + businessOpeningTimeInput.sunClosingTime,
+  workingTimeSun : "Sunday: Closed" + businessOpeningTimeInput.sunOpeningTime + "" + businessOpeningTimeInput.sunClosingTime,
 }
 
 
-const changedInfo = {
-  businessName: "Princess Nails Exeter",
-  businessAddressLevel1: "95 Fore Street",
-  businessAddressLevel2: "Exeter",
-  businessAddressLevel3: "Devon",
+const changedInfo = {  
+  businessName: "Natural Nails Bromsgrove",
+  businessAddressLevel1: "12 High St",
+  businessAddressLevel2: "Bromsgrove",
+  businessAddressLevel3: "Worcestershire",
   businessAddressLevel4: "England",
   businessCountry: "United Kingdom",
   businessGeoRegionCode: "GB",
 
   //Tra cứu tên thành phố trong https://www.geonames.org/GB/administrative-division-united-kingdom.html và điền vào mã code tương ứng
-  businessAddressDivisionCode: "DEV",
+  businessAddressDivisionCode: "WOR",
 
-  businessPostCode: "EX4 3HY",
+  businessPostCode: "B61 8HQ",
   
 
-  businessPhoneNumber: "01392 431988",
+  businessPhoneNumber: "01527 574400",
 
   //Website tiệm KO có dấu / ở cuối
-  businessWebsite: "https://princess-nails-exeter.web.app",
+  businessWebsite: "https://naturalnailsbromsgrove.web.app",
 
-  linkBookingMap: "https://bit.ly/3R7tdI2",
-  linkBookingApp: "https://bit.ly/3NRmHSW",
-  linkToMap: "https://g.page/r/CTMvNCantXjkEBA",
+  linkBookingMap: "",
+  linkBookingApp: "https://bit.ly/3BXPulq",
+  linkToMap: "https://goo.gl/maps/xQb9Hr1uDSDdTqon7",
 
   
 
-  //Mở Google Maps tiệm, zoom sát vào, chuột phải 
-  geoLatitude: 50.72165291432293,
-  geoLongitude: -3.5336547035207144,
+  //Mở Google Maps tiệm, zoom sát vào, chuột phải  52.33370821542717, -2.06201913457993
+  geoLatitude: 52.33370821542717,
+  geoLongitude: -2.06201913457993,
 
   //Code xác minh của website trên Google Search
   metaGoogleSiteVerification: "",
 
-  //iframe map
-  iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d157.86945033478742!2d-3.533776515350408!3d50.721586479953295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486da43af0c1af77%3A0xe478b5a726342f33!2sPrincess%20nails%20Exeter!5e0!3m2!1sen!2sus!4v1681546039070!5m2!1sen!2sus",
+  //iframe map 
+  iframeMapLink : "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d609.5074705374997!2d-2.061871972137616!3d52.33360399397588!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870eb824f34a8cd%3A0xc56125a3853d5609!2sNatural%20nails%20bromsgrove!5e0!3m2!1sen!2sus!4v1684464912755!5m2!1sen!2sus",
 
   // Các ảnh của tiệm
-  ogImage:"https://i.ibb.co/dmKhmXW/og-image.jpg",
-  icon:"/icon2.png",
-  businessLogo:"/logo3.jpg",
+  ogImage:"https://naturalnailsbromsgrove.web.app/images/desktop-nail-salon-happy-customer-1.jpg",
+  icon:"/icon.jpg",
+  businessLogo:"/logo.jpg",
 }
 
 const menu = {
@@ -356,11 +356,14 @@ const headerInput = {
   metaGeoPosition : changedInfo.geoLatitude + ", " + changedInfo.geoLongitude,
   metaGeoPlaceName : changedInfo.businessAddressLevel2 + ", " + changedInfo.businessCountry,
   metaGeoRegion: changedInfo.businessGeoRegionCode + "-" + changedInfo.businessAddressDivisionCode,
+
+  metaOgSiteName: changedInfo.businessName,
+  metaOgLocale: "en_GB",
   
   metaOgTitle: processedInfo.slogan,
   metaOgImage: changedInfo.ogImage,
-  metaOgImageWidth: "1200",
-  metaOgImageHeight: "630",
+  metaOgImageWidth: "1920",
+  metaOgImageHeight: "1073",
 
   metaGoogleSiteVerification: changedInfo.metaGoogleSiteVerification,
 }
@@ -431,13 +434,13 @@ const schemaInput = {
 
   schemaPriceRange: "££",
   //Cần đổi tên khách
-  schemaPersonReviewAuthorName: "Karolina Hamilton",
-  //Xem điểm review trung bình của tiệm là bao nhiêu
-  schemaRatingValue: "4.6",
+  schemaPersonReviewAuthorName: "Katie",
+  //Xem điểm review trung bình của tiệm là bao nhiêu   
+  schemaRatingValue: "5",
   schemaBestRating: "5",
 
-  schemaGeoLatitude: 50.721704169283726,
-  schemaLongitude: -3.533617680425276,
+  schemaGeoLatitude: 52.33370821542717,  
+  schemaLongitude: -2.06201913457993,
 
   schemaUrl: changedInfo.businessWebsite,
 
@@ -735,7 +738,7 @@ const images = {
 
   section6Image1 : "/images/nail-extension-2.jpg",
 
-  section7Image1 : "/images/nail-extension-3-1.jpg",
+  section7Image1 : "/images/nail-extension-3.jpg",
   section7Image2 : "/images/nail-extension-4.jpg",
 
   LocationImage1 : "/images/nail-extension-11.jpg",
@@ -821,9 +824,9 @@ const images = {
   //Ảnh customer review - customer-review.js
   cusReviewImage1 : "/images/nail-salon-customer-review-1.jpg",
   cusReviewImage2 : "/images/nail-salon-customer-review-2.jpg",
-  cusReviewImage3 : "/images/nail-salon-customer-review-3.jpg",
-  cusReviewImage4 : "/images/nail-salon-customer-review-4.jpg",
-  cusReviewImage5 : "/images/nail-salon-customer-review-5.jpg",
+  cusReviewImage3 : "/images/nail-salon-customer-review-3.JPG",
+  cusReviewImage4 : "/images/nail-salon-customer-review-4.JPG",
+  cusReviewImage5 : "/images/nail-salon-customer-review-5.JPG",
 
 
   //Ảnh Footer
@@ -842,20 +845,19 @@ const images = {
   const serviceList1 = {
     service1 : "Acrylic Fullset with normal nail polish",
     service1Time : "45 mins",
-    service1Price : "30",
+    service1Price : "25",
     service1Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
 
-  
     service2 : "Acrylic Infill with normal nail polish",
     service2Time : "35 mins",
-    service2Price : "25",
+    service2Price : "20",
     service2Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
-  
+
     service3 : "Acrylic Full Set with Shellac",
     service3Time : "1 hr",
-    service3Price : "36",
+    service3Price : "40",
     service3Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
-  
+
     service4 : "Acrylic Infill with Shellac",
     service4Time : "45 mins",
     service4Price : "30",
@@ -870,30 +872,30 @@ const images = {
     service6Time : "45 mins",
     service6Price : "20",
     service6Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
-  
+
     service7 : "Full Set Pink & White",
     service7Time : "45 mins",
     service7Price : "40",
     service7Description : "Prepare to take all the compliments you’re lately getting. We’ve just added a new extension option for our clients: Pink and White! Chances are you know someone who loves the look, because it’s been trending for a while now. Now, with our " + seoKeyword.seoKeyword2 +" making it possible to infuse this unconventional color into your look – we’ve opened up an entire new world of possibilities.",
-  
+
     service8 : "Infill Pink & White",
     service8Time : "45 mins",
-    service8Price : "35",
+    service8Price : "30",
     service8Description : "",
-  
+
     service9 : "Full Set Ombre",
     service9Time : "45 mins",
-    service9Price : "40",
+    service9Price : "38",
     service9Description : "You could be the Queen of the Ombre nails, with the right technique. The technicians at our " + seoKeyword.seoKeyword2 + " will masterfully blend one color into another, creating a unique and beautiful look, and adding it to your finger tips.",
 
     service10 : "Infill Ombre",
     service10Time : "45 mins",
-    service10Price : "35",
+    service10Price : "30",
     service10Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
-  
+
     service11 : "Full Set Colour Powder",
     service11Time : "45 mins",
-    service11Price : "40",
+    service11Price : "35",
     service11Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
   
     service12 : "Infill Colour Powder (Same Colour)",
@@ -950,10 +952,10 @@ const images = {
     service22Time : "50 mins",
     service22Price : "35",
     service22Description : "Take off then Manicure and then Shellac",
-  
+
     service23 : "Dipping Powder SNS (from)",
     service23Time : "45 mins",
-    service23Price : "36",
+    service23Price : "30",
     service23Description : "SNS Dipping Powder creates a stronger polish finish which can help strengthen brittle or weak nails.",
   
     service24 : "BIAB buider gel Fullset",
@@ -1075,32 +1077,72 @@ const images = {
     service47Time : "45 mins",
     service47Price : "35",
     service47Description : "",
+
+    service48: "Dipping Extensions",
+    service48Time : "45 mins",
+    service48Price : "40",
+    service48Description: "",
+
+    service49: "Big toe x2",
+    service49Time : "",
+    service49Price : "10",
+    service49Descripton: "",
+
+    service50: "Fullset Toe",
+    service50Time : "45 mins",
+    service50Price : "30",
+    service50Description : "",
+
+    service51: "Soak off gel colour",
+    service51Time : "10 mins",
+    service51Price : "8",
+    service51Description : "",
+
+    service52: "Soak off powder",
+    service52Time : "15 mins",
+    service52Price : "10",
+    service52Description: "",
+
+    service53: "",
+    service53Time : "",
+    service53Price : "",
+    service53Descriptipon: "",
+
+    service54: "",
+    service54Time : "",
+    service54Price : "",
+    service54Description : "",
+
+
+
+
+
     }; 
   
   const serviceList2 = {
     service1 : "Nail shape with Shellac nails on hand",
     service1Time : "30 mins",
-    service1Price : "22",
-    service1Description : "",
+    service1Price : "20",
+    service1Description : "Let us transform your nails into perfectly shaped works of art, while long-lasting Shellac polish adds a pop of vibrant color to your fingertips. You'll feel confident and beautiful with every hand gesture, making you fall in love with yourself all over again.",
   
     service2 : "Nail shape with Shellac nails on feet",
     service2Time : "30 mins",
-    service2Price : "22",
-    service2Description : "",
+    service2Price : "20",
+    service2Description : "Our expert technicians will shape and polish your toes to perfection, leaving you with beautifully polished and well-groomed feet. With the long-lasting, chip-resistant Shellac polish, you can enjoy your stunning feet for weeks to come. Give yourself the gift of self-care and feel confident and stylish with every step.",
   
     service3 : "Manicure Shellac",
     service3Time : "40 mins",
-    service3Price : "30",
+    service3Price : "28",
     service3Description : "Manicures are a difficult art to master. No matter how great they look when finished, they seem to always chip within days, if not in a matter of hours. Enter the Gel nail manicure - a groundbreaking technique that uses gel polishes that get 'cured' under UV lights. The result? Shiny, strong nails for weeks and no drying time!",
-  
+
     service4 : "Pedicure Shellac",
     service4Time : "40 mins",
-    service4Price : "35",
+    service4Price : "40",
     service4Description : "Please bring Flip Flops/Sandals. Highly recommended with Gel Colour. Last longer and less likely to chip! Fries instantly so you don't have to worry about smudging it.",
   
     service5 : "Gel Polish Manicure & Pedicure",
     service5Time : "1 hr 25 mins",
-    service5Price : "60",
+    service5Price : "65",
     service5Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish. Shellac pedicure and manicure lasts up to two weeks, it’s well worth the wait.",
   
     service6 : "Take off shellac and Redone Gel Polish on Hand",
@@ -1133,37 +1175,37 @@ const images = {
   const serviceList3 = {
     service1 : "Manicure with normal polish",
     service1Time : "30 mins",
-    service1Price : "20",
+    service1Price : "18",
     service1Description : "A classic manicure is all you need to take great care of your hands and nails. Includes massage, cuticle, shaping, file, polish and moisturiser.",
-  
+
     service2 : "Pedicure with normal polish",
     service2Time : "40 mins",
-    service2Price : "30",
+    service2Price : "25",
     service2Description : "A classic pedicure is all you need to take great care of your feet and nails. Includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
     
     service3 : "Luxury Pedicure",
     service3Time : "40 mins",
     service3Price : "53",
     service3Description : "Get healthy, happy feet with the help of VOESH's Pedi in a Box Deluxe 4-Step pedicure system. This single-use pedicure kit contains a sea salt soak, sugar scrub, mud masque, and massage butter to detoxify, exfoliate, cleanse, and hydrate your skin. Plus Disposable Pedicure Pro Pack for use at the treatment or you can bring it home.",
-    
+
     service4 : "Manicure & Pedicure with normal polish",
     service4Time : "1 hr 15 mins",
-    service4Price : "48",
+    service4Price : "40",
     service4Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
   
     service5 : "Men's Manicure & Pedicure",
     service5Time : "1 hr 15 mins",
     service5Price : "40",
     service5Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
-  
+
     service6 : "Shape & paint on hands",
     service6Time : "15 mins",
-    service6Price : "15",
+    service6Price : "10",
     service6Description : "Want to show off your individuality? Come to " + changedInfo.businessName + " to paint on your nails with designs from experts at our " + seoKeyword.seoKeyword1,
-  
+
     service7 : "Shape & paint on toes",
     service7Time : "15 mins",
-    service7Price : "15",
+    service7Price : "10",
     service7Description : "Fancy something a little different? Head into our " + seoKeyword.seoKeyword2 + " for new ways to choose the perfect colour for your toes. Pick from a range of colours or go for an intricate design on your toe nails.",
 
     service8 : "Smoothing Pedicure with normal polish",
@@ -1215,6 +1257,29 @@ const images = {
     service17Time : "90 mins",
     service17Price : "70",
     service17Description : "Your feet & hand have been longawaiting for rejuvenating pedicure & manicure. Say ahh… to a warm whirlpool soaking with Mineral Herbal Bath. Then a gentle massage and Walnut Husk Liquid Body Lufra exfoliation.While regular pedicure components are tented, a calf massage with the Invigorating Icedancer and steamy towel wrap are added for restoring vitality and energizing the legs. Dry heel are also treated with an all Spice Berry Sole Solution. Finish with a soft yet intense hydrating Baobab Body Butter for an ultimate experience",
+
+    service18: "Deluxe Pedicure massage",
+    service18Time : "45 mins",
+    service18Price : "30",
+    service18Description : "",
+
+    service19: "Deluxe Manicure massage",
+    service19Time : "45 mins",
+    service19Price : "23",
+    service19Description : " ",
+
+    service20: "Deluxe Pedicure & Manicure massage",
+    service20Time : "1 hr 15 mins",
+    service20Price : "50",
+    service20Description : "",
+
+    service21: "",
+    service21Time : "",
+    service21Price : "",
+    service21Description : "",
+    
+
+
   };
   
   const serviceList4 = {
@@ -1248,11 +1313,11 @@ const images = {
     service1Time : "",
     service1Price : "5",
     service1Description : "The best looking nails are made with the best nail care services from our " + seoKeyword.seoKeyword1 +". Caring for your surface is the key to keeping it looking good for as long as possible. So come on over and treat yourself today.⁣",
-  
+
     service2 : "Diamond Crystal x10",
     service2Time : "",
-    service2Price : "3",
-    service2Description : "",
+    service2Price : "5",
+    service2Description : "Allow us to pamper your nails with an extra sparkle and shine. The diamond-like crystals will leave your nails looking stunning and unique, sure to make you feel confident and beautiful. Embrace your feminine side and love the skin you're in with this elegant and sophisticated addition to your nails",
 
     service3 : "3D nail art (from)",
     service3Time : "",
@@ -1263,6 +1328,12 @@ const images = {
     service4Time : "",
     service4Price : "5",
     service4Description : "",
+
+    service5: "Chrome (extra)",
+    service5Time : "",
+    service5Price : "5",
+    service5Description : "Our skilled technicians will expertly apply a layer of chrome finish to give your nails a metallic shine that will have everyone envious. From classic silver to bold and brilliant gold, we have a range of chrome colors to choose from. Embrace your feminine side and pamper yourself with a touch of glamour with Chrome Nails. Get ready to turn heads and feel confident in your skin with this chic and sophisticated manicure. Your nails deserve the best, come and visit us today!",
+
 
   }; 
   

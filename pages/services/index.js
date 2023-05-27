@@ -12,7 +12,7 @@ import MobileContent from '/pages/services/mobile-content.js';
 import TabletContent from '/pages/services/tablet-content';
 import DesktopFooter from '/pages/Components/footer/desktop-footer';
 import MobileFooter from '/pages/Components/footer/mobile-footer';
-import TabletFooter from '/pages/Components/footer/tablet-footer';
+import TabletFooter from '/pages/Components/footer/tablet-footer';  
 
 import { headerInput } from '/pages/core/info';
 
@@ -39,6 +39,9 @@ export default function Home() {
           <meta name="geo.position" content={headerInput.metaGeoPosition} />
           <meta name="geo.placename" content={headerInput.metaGeoPlaceName} />
           <meta name="geo.region" content={headerInput.metaGeoRegion} />
+
+          <meta property="og:site_name" content={headerInput.metaOgSiteName} />
+          <meta property="og:locale" content={headerInput.metaOgLocale} />
           
 
           <meta property='og:title' content={headerInput.metaOgTitle} />

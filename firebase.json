@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "naturalnailsbromsgrove",
     "public": "out",
     "ignore": [
       "firebase.json",
