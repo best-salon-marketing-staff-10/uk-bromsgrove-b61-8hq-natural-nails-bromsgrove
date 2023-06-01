@@ -855,12 +855,12 @@ const images = {
 
     service3 : "Acrylic Full Set with Shellac",
     service3Time : "1 hr",
-    service3Price : "40",
+    service3Price : "40+",
     service3Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
 
     service4 : "Acrylic Infill with Shellac",
-    service4Time : "45 mins",
-    service4Price : "30",
+    service4Time : "1 hr",
+    service4Price : "30+",
     service4Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
     
     service5 : "Gel Powder Full Set with normal nail polish",
@@ -874,28 +874,28 @@ const images = {
     service6Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
 
     service7 : "Full Set Pink & White",
-    service7Time : "45 mins",
-    service7Price : "40",
+    service7Time : "1 hr",
+    service7Price : "40+",
     service7Description : "Prepare to take all the compliments you’re lately getting. We’ve just added a new extension option for our clients: Pink and White! Chances are you know someone who loves the look, because it’s been trending for a while now. Now, with our " + seoKeyword.seoKeyword2 +" making it possible to infuse this unconventional color into your look – we’ve opened up an entire new world of possibilities.",
 
     service8 : "Infill Pink & White",
-    service8Time : "45 mins",
-    service8Price : "30",
+    service8Time : "1 hr",
+    service8Price : "30+",
     service8Description : "",
 
     service9 : "Full Set Ombre",
-    service9Time : "45 mins",
-    service9Price : "38",
+    service9Time : "1 hr",
+    service9Price : "40+",
     service9Description : "You could be the Queen of the Ombre nails, with the right technique. The technicians at our " + seoKeyword.seoKeyword2 + " will masterfully blend one color into another, creating a unique and beautiful look, and adding it to your finger tips.",
 
     service10 : "Infill Ombre",
-    service10Time : "45 mins",
-    service10Price : "30",
+    service10Time : "1 hr",
+    service10Price : "30+",
     service10Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
 
     service11 : "Full Set Colour Powder",
-    service11Time : "45 mins",
-    service11Price : "35",
+    service11Time : "1 hr",
+    service11Price : "35+",
     service11Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
   
     service12 : "Infill Colour Powder (Same Colour)",
@@ -930,7 +930,7 @@ const images = {
   
     service18 : "Take off Powder",
     service18Time : "20 mins",
-    service18Price : "12",
+    service18Price : "10+",
     service18Description : "Just take off",
   
     service19 : "Take off Acrylic and Redone a Newset",
@@ -953,9 +953,9 @@ const images = {
     service22Price : "35",
     service22Description : "Take off then Manicure and then Shellac",
 
-    service23 : "Dipping Powder SNS (from)",
+    service23 : "Dipping Powder SNS ",
     service23Time : "45 mins",
-    service23Price : "30",
+    service23Price : "35+",
     service23Description : "SNS Dipping Powder creates a stronger polish finish which can help strengthen brittle or weak nails.",
   
     service24 : "BIAB buider gel Fullset",
@@ -1079,26 +1079,26 @@ const images = {
     service47Description : "",
 
     service48: "Dipping Extensions",
-    service48Time : "45 mins",
-    service48Price : "40",
+    service48Time : "1 hr",
+    service48Price : "40+",
     service48Description: "",
 
     service49: "Big toe x2",
     service49Time : "",
-    service49Price : "10",
+    service49Price : "10+",
     service49Descripton: "",
 
     service50: "Fullset Toe",
-    service50Time : "45 mins",
-    service50Price : "30",
+    service50Time : "1 hr",
+    service50Price : "30+",
     service50Description : "",
 
-    service51: "Soak off gel colour",
+    service51: "",
     service51Time : "10 mins",
     service51Price : "8",
     service51Description : "",
 
-    service52: "Soak off powder",
+    service52: "",
     service52Time : "15 mins",
     service52Price : "10",
     service52Description: "",
@@ -1122,27 +1122,27 @@ const images = {
   const serviceList2 = {
     service1 : "Nail shape with Shellac nails on hand",
     service1Time : "30 mins",
-    service1Price : "20",
+    service1Price : "20+",
     service1Description : "Let us transform your nails into perfectly shaped works of art, while long-lasting Shellac polish adds a pop of vibrant color to your fingertips. You'll feel confident and beautiful with every hand gesture, making you fall in love with yourself all over again.",
   
     service2 : "Nail shape with Shellac nails on feet",
     service2Time : "30 mins",
-    service2Price : "20",
+    service2Price : "20+",
     service2Description : "Our expert technicians will shape and polish your toes to perfection, leaving you with beautifully polished and well-groomed feet. With the long-lasting, chip-resistant Shellac polish, you can enjoy your stunning feet for weeks to come. Give yourself the gift of self-care and feel confident and stylish with every step.",
   
     service3 : "Manicure Shellac",
-    service3Time : "40 mins",
-    service3Price : "28",
+    service3Time : "1 hr",
+    service3Price : "28+",
     service3Description : "Manicures are a difficult art to master. No matter how great they look when finished, they seem to always chip within days, if not in a matter of hours. Enter the Gel nail manicure - a groundbreaking technique that uses gel polishes that get 'cured' under UV lights. The result? Shiny, strong nails for weeks and no drying time!",
 
     service4 : "Pedicure Shellac",
-    service4Time : "40 mins",
-    service4Price : "40",
+    service4Time : "1 hr",
+    service4Price : "40+",
     service4Description : "Please bring Flip Flops/Sandals. Highly recommended with Gel Colour. Last longer and less likely to chip! Fries instantly so you don't have to worry about smudging it.",
   
     service5 : "Gel Polish Manicure & Pedicure",
     service5Time : "1 hr 25 mins",
-    service5Price : "65",
+    service5Price : "65+",
     service5Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish. Shellac pedicure and manicure lasts up to two weeks, it’s well worth the wait.",
   
     service6 : "Take off shellac and Redone Gel Polish on Hand",
@@ -1157,7 +1157,7 @@ const images = {
   
     service8 : "Take off shellac",
     service8Time : "20 mins",
-    service8Price : "8",
+    service8Price : "8+",
     service8Description : "Just take off shellac",
 
     service9 : "Take off shellac and Redone Normal Polish on Hand",
@@ -1175,12 +1175,12 @@ const images = {
   const serviceList3 = {
     service1 : "Manicure with normal polish",
     service1Time : "30 mins",
-    service1Price : "18",
+    service1Price : "18+",
     service1Description : "A classic manicure is all you need to take great care of your hands and nails. Includes massage, cuticle, shaping, file, polish and moisturiser.",
 
     service2 : "Pedicure with normal polish",
-    service2Time : "40 mins",
-    service2Price : "25",
+    service2Time : "1 hr",
+    service2Price : "25+",
     service2Description : "A classic pedicure is all you need to take great care of your feet and nails. Includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
     
     service3 : "Luxury Pedicure",
@@ -1190,7 +1190,7 @@ const images = {
 
     service4 : "Manicure & Pedicure with normal polish",
     service4Time : "1 hr 15 mins",
-    service4Price : "40",
+    service4Price : "40+",
     service4Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
   
     service5 : "Men's Manicure & Pedicure",
@@ -1200,12 +1200,12 @@ const images = {
 
     service6 : "Shape & paint on hands",
     service6Time : "15 mins",
-    service6Price : "10",
+    service6Price : "10+",
     service6Description : "Want to show off your individuality? Come to " + changedInfo.businessName + " to paint on your nails with designs from experts at our " + seoKeyword.seoKeyword1,
 
     service7 : "Shape & paint on toes",
     service7Time : "15 mins",
-    service7Price : "10",
+    service7Price : "10+",
     service7Description : "Fancy something a little different? Head into our " + seoKeyword.seoKeyword2 + " for new ways to choose the perfect colour for your toes. Pick from a range of colours or go for an intricate design on your toe nails.",
 
     service8 : "Smoothing Pedicure with normal polish",
@@ -1259,18 +1259,18 @@ const images = {
     service17Description : "Your feet & hand have been longawaiting for rejuvenating pedicure & manicure. Say ahh… to a warm whirlpool soaking with Mineral Herbal Bath. Then a gentle massage and Walnut Husk Liquid Body Lufra exfoliation.While regular pedicure components are tented, a calf massage with the Invigorating Icedancer and steamy towel wrap are added for restoring vitality and energizing the legs. Dry heel are also treated with an all Spice Berry Sole Solution. Finish with a soft yet intense hydrating Baobab Body Butter for an ultimate experience",
 
     service18: "Deluxe Pedicure massage",
-    service18Time : "45 mins",
-    service18Price : "30",
+    service18Time : "1 hr",
+    service18Price : "30+",
     service18Description : "",
 
     service19: "Deluxe Manicure massage",
-    service19Time : "45 mins",
-    service19Price : "23",
+    service19Time : "1 hr",
+    service19Price : "23+",
     service19Description : " ",
 
     service20: "Deluxe Pedicure & Manicure massage",
     service20Time : "1 hr 15 mins",
-    service20Price : "50",
+    service20Price : "50+",
     service20Description : "",
 
     service21: "",
@@ -1309,14 +1309,14 @@ const images = {
     service5Description : "",
   }; 
   const serviceList5 = {
-    service1 : "Nail Design (from)",
+    service1 : "Nail Design ",
     service1Time : "",
-    service1Price : "5",
+    service1Price : "5+",
     service1Description : "The best looking nails are made with the best nail care services from our " + seoKeyword.seoKeyword1 +". Caring for your surface is the key to keeping it looking good for as long as possible. So come on over and treat yourself today.⁣",
 
     service2 : "Diamond Crystal x10",
     service2Time : "",
-    service2Price : "5",
+    service2Price : "5+",
     service2Description : "Allow us to pamper your nails with an extra sparkle and shine. The diamond-like crystals will leave your nails looking stunning and unique, sure to make you feel confident and beautiful. Embrace your feminine side and love the skin you're in with this elegant and sophisticated addition to your nails",
 
     service3 : "3D nail art (from)",
@@ -1331,7 +1331,7 @@ const images = {
 
     service5: "Chrome (extra)",
     service5Time : "",
-    service5Price : "5",
+    service5Price : "5+",
     service5Description : "Our skilled technicians will expertly apply a layer of chrome finish to give your nails a metallic shine that will have everyone envious. From classic silver to bold and brilliant gold, we have a range of chrome colors to choose from. Embrace your feminine side and pamper yourself with a touch of glamour with Chrome Nails. Get ready to turn heads and feel confident in your skin with this chic and sophisticated manicure. Your nails deserve the best, come and visit us today!",
 
 
