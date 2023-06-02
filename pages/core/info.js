@@ -341,11 +341,11 @@ const processedInfo = {
 
   //offer.js
   offerTitle : "Our Offers and Benefits",
-  offerDescription : "Free all cold drink and hot drink, chocolate, sweet or snack",
-  offerHeading : "Our offers:",
-  offerContent1 : "✅10% for Student. ",
-  offerContent2 : "✅Refer a friend to get 5 pounds voucher. ",
-  offerContent3 : "✅Group from 3 people get 10% with the main treatment",
+  offerDescription : "",
+  offerHeading : "",
+  offerContent1 : "✅10% discount for student ",
+  offerContent2 : "✅Loyalty Program: You get 20% off every 5 times visiting us ",
+  offerContent3 : "",
 }
 
 const headerInput = {
@@ -895,7 +895,7 @@ const images = {
 
     service11 : "Full Set Colour Powder",
     service11Time : "1 hr",
-    service11Price : "35+",
+    service11Price : "38+",
     service11Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
   
     service12 : "Infill Colour Powder (Same Colour)",
@@ -954,7 +954,7 @@ const images = {
     service22Description : "Take off then Manicure and then Shellac",
 
     service23 : "Dipping Powder SNS ",
-    service23Time : "45 mins",
+    service23Time : "1 hr",
     service23Price : "35+",
     service23Description : "SNS Dipping Powder creates a stronger polish finish which can help strengthen brittle or weak nails.",
   
@@ -1074,8 +1074,8 @@ const images = {
     service46Description : "",
 
     service47 : "Infill Colour Powder",
-    service47Time : "45 mins",
-    service47Price : "35",
+    service47Time : "1 hr",
+    service47Price : "30+",
     service47Description : "",
 
     service48: "Dipping Extensions",
@@ -1093,14 +1093,14 @@ const images = {
     service50Price : "30+",
     service50Description : "",
 
-    service51: "",
-    service51Time : "10 mins",
-    service51Price : "8",
+    service51: "BIAB on Natural nails",
+    service51Time : "1 hr",
+    service51Price : "30+",
     service51Description : "",
 
-    service52: "",
-    service52Time : "15 mins",
-    service52Price : "10",
+    service52: "BIAB Extension",
+    service52Time : "1 hr",
+    service52Price : "35+",
     service52Description: "",
 
     service53: "",
