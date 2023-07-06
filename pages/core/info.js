@@ -116,7 +116,7 @@ const changedInfo = {
   businessWebsite: "https://naturalnailsbromsgrove.web.app",
 
   linkBookingMap: "",
-  linkBookingApp: "https://bit.ly/3BXPulq",
+  linkBookingApp: "https://bit.ly/3XIoa4K",
   linkToMap: "https://goo.gl/maps/xQb9Hr1uDSDdTqon7",
 
   
